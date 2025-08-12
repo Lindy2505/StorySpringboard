@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Teaching Topics — Click to Learn</title>
+  <meta name="description" content="A simple, searchable catalogue of teaching concepts and topics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <h1 class="brand">Teaching Topics</h1>
+      <nav class="nav">
+        <a href="#" id="resetFilters" class="link">Reset filters</a>
+        <a href="https://github.com" target="_blank" rel="noopener" class="link subtle" title="Hosted on GitHub Pages">GitHub Pages</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <div class="control-group">
+        <label for="search">Search</label>
+        <input id="search" class="input" type="search" placeholder="Search title, summary, tags… (e.g., creative writing, Grade 3)" />
+      </div>
+      <div class="control-group">
+        <label for="subjectSelect">Subject</label>
+        <select id="subjectSelect" class="select">
+          <option value="">All subjects</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="phaseSelect">Phase</label>
+        <select id="phaseSelect" class="select">
+          <option value="">All phases</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="activeTagBar" class="active-tags" aria-live="polite"></section>
+
+    <section>
+      <div id="cards" class="card-grid" aria-live="polite" aria-busy="true"></div>
+      <p id="emptyState" class="empty" hidden>No results. Try clearing filters or using fewer keywords.</p>
+    </section>
+  </main>
+
+  <!-- Modal -->
+  <div id="modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+    <div class="modal-backdrop" data-close="true"></div>
+    <div class="modal-content" role="document">
+      <button class="modal-close" aria-label="Close" data-close="true">×</button>
+      <article>
+        <header class="modal-header">
+          <h2 id="modalTitle"></h2>
+          <p id="modalMeta" class="meta"></p>
+          <div id="modalTags" class="tags"></div>
+        </header>
+        <section id="modalBody" class="modal-body"></section>
+        <footer id="modalFooter" class="modal-footer"></footer>
+      </article>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container small">
+      <p>Built for teachers. Edit <code>topics.json</code> to update content. Hosted free on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

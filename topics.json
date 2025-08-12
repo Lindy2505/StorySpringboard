@@ -1,0 +1,97 @@
+[
+  {
+    "id": "creative-writing-basics",
+    "title": "Creative Writing: Getting Started",
+    "subject": "English",
+    "phase": [
+      "Foundation Phase"
+    ],
+    "ages": "5–9",
+    "tags": [
+      "Creative Writing",
+      "Storytelling",
+      "Idea Generation"
+    ],
+    "summary": "Simple ways to launch creative writing with young learners.",
+    "content": "Why it matters:\n- Writing grows from oral language, play, and talk.\n- Learners benefit from visible models and scaffolds.\n\nTry this:\n1) Picture Prompts Circle — Show a rich image. Learners say what they notice; teacher lists words/phrases on the board.\n2) Sentence Stems — Provide starters (e.g., 'I opened the door and…'). Learners complete orally, then write.\n3) Word Banks — Build themed word lists together before writing (characters, settings, actions).\n\nSupport:\n- Use quick 'plan, say, write, check' routine.\n- Offer frames: Beginning / Middle / Ending.",
+    "links": [
+      {
+        "label": "Simple Story Planner (example)",
+        "url": "https://example.com/story-planner"
+      }
+    ],
+    "lastUpdated": "2025-08-12"
+  },
+  {
+    "id": "story-openings",
+    "title": "Story Openings: Hooks that Work",
+    "subject": "English",
+    "phase": [
+      "Foundation Phase"
+    ],
+    "ages": "6–9",
+    "tags": [
+      "Creative Writing",
+      "Story Openings",
+      "Hooks"
+    ],
+    "summary": "Teach openings that spark curiosity: action, dialogue, setting, question.",
+    "content": "Mini-lesson:\n- Model four opening types on the board: Action, Dialogue, Setting, Question.\n- Read a few strong examples aloud; ask which type they are.\n\nActivity:\n- Learners pick a type and draft two different openings for the same idea.\n- Partner swap: partners read and choose which opening makes them want to read on, and why.\n\nDifferentiation:\n- Provide opening frames (e.g., 'Suddenly, …').\n- Use pictures for learners who need more support.",
+    "links": [],
+    "lastUpdated": "2025-08-12"
+  },
+  {
+    "id": "planning-frames",
+    "title": "Planning Frames (Graphic Organisers)",
+    "subject": "English",
+    "phase": [
+      "Foundation Phase"
+    ],
+    "ages": "6–9",
+    "tags": [
+      "Creative Writing",
+      "Planning",
+      "Graphic Organisers"
+    ],
+    "summary": "Use simple frames so learners can plan before writing.",
+    "content": "Options:\n- 3-Box Plan: Beginning / Middle / End.\n- 5-Box Plan: Character / Setting / Problem / Events / Ending.\n- Story Mountain: build-up, climax, resolution (with pictures).\n\nTips:\n- Model how to sketch quick icons in each box before writing.\n- Keep the plan visible while learners write; allow them to point and talk through it.",
+    "links": [],
+    "lastUpdated": "2025-08-12"
+  },
+  {
+    "id": "show-dont-tell",
+    "title": "Descriptive Writing: Show, Don’t Tell",
+    "subject": "English",
+    "phase": [
+      "Foundation Phase"
+    ],
+    "ages": "7–9",
+    "tags": [
+      "Creative Writing",
+      "Description",
+      "Vocabulary"
+    ],
+    "summary": "Move from 'He was scared' to clues that show feelings through actions and senses.",
+    "content": "Teach:\n- Make a T-chart: TELL vs SHOW. Brainstorm together.\n- Model swapping 'tell' sentences for 'show' sentences using senses and actions.\n\nPractice:\n- Give learners 3 'tell' sentences to convert to 'show'.\n- Build a class word bank for feelings (e.g., 'shaky knees', 'butterflies').",
+    "links": [],
+    "lastUpdated": "2025-08-12"
+  },
+  {
+    "id": "assessment-rubrics",
+    "title": "Marking Writing: Simple Rubrics",
+    "subject": "English",
+    "phase": [
+      "Foundation Phase"
+    ],
+    "ages": "7–9",
+    "tags": [
+      "Assessment",
+      "Rubrics",
+      "Feedback"
+    ],
+    "summary": "Keep criteria clear: idea, structure, sentences, spelling/punctuation—age-appropriate.",
+    "content": "Routine:\n- Share the rubric before writing; use smiley/traffic-light levels.\n- After writing, self-check with the rubric, then partner feedback.\n\nTeacher Tips:\n- Give one 'glow' (strength) and one 'grow' (next step).\n- Avoid over-marking; focus on the current goal.",
+    "links": [],
+    "lastUpdated": "2025-08-12"
+  }
+]
