@@ -1,13 +1,8 @@
 /* Minimal, clean styling */
 :root{
-  --bg: #0b1020;
-  --panel: #121a36;
-  --card: #0f1630;
-  --muted: #9fb1d1;
-  --ink: #eaf0ff;
-  --accent: #8bb5ff;
-  --accent-2: #b0ffcc;
-  --ring: rgba(139,181,255,0.5);
+  --bg:#f6f7fb; --panel:#ffffff; --card:#ffffff;
+--muted:#6b7280; --ink:#0f172a;
+--accent:#4f46e5; --accent-2:#059669; --ring:rgba(79,70,229,.35);
   --shadow: rgba(0,0,0,0.25);
   --radius: 16px;
 }
