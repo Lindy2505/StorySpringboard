@@ -11,8 +11,7 @@
 html,body{margin:0;padding:0;height:100%}
 body{
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
-  background: radial-gradient(1000px 600px at 10% -10%, #1a2459 0%, #0b1020 60%), var(--bg);
-  color: var(--ink);
+  background: background: radial-gradient(1000px 600px at 10% -10%, #1a2459 0%, var(--bg) 60%), var(--bg);
 }
 
 .container{width:min(1100px, 92%); margin-inline:auto}
