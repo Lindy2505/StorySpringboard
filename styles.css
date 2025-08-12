@@ -6,13 +6,24 @@
   --shadow: rgba(0,0,0,0.25);
   --radius: 16px;
 }
-
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;height:100%}
+/* Base text (body, inputs, cards, etc.) */
 body{
-  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
-  background: background: radial-gradient(1000px 600px at 10% -10%, #1a2459 0%, var(--bg) 60%), var(--bg);
+  font-family: "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+  /* rest of your body styles stay the same */
 }
+
+/* Headings use Abril Fatface */
+h1, h2, h3, h4, .brand, .modal-header h2, .card h3{
+  font-family: "Abril Fatface", "Poppins", system-ui, -apple-system, "Segoe UI", Roboto, Arial, "Noto Sans", "Helvetica Neue", sans-serif;
+  font-weight: 400;            /* Abril Fatface ships as a single weight */
+  line-height: 1.15;           /* a touch tighter for display heads */
+}
+
+/* Optional: small tweak so headings pop nicely on your dark theme */
+.card h3 { letter-spacing: 0.2px; }
+
 
 .container{width:min(1100px, 92%); margin-inline:auto}
 
